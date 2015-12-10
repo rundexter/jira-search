@@ -190,7 +190,6 @@ module.exports = {
         };
 
         jira.doRequest(options, function(error, response, body) {
-            console.log(body);
 
             if (error)
                 this.fail(error);
