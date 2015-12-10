@@ -48,5 +48,6 @@
             "title":"Issue Key"
         }
     ],
+    "icon": "dex-jira",
     "title": "Jira Search Request" /* Required.A display name for the module */
 }
