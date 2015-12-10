@@ -4,23 +4,49 @@
 {
     //Required. Inputs the module expects.
     "inputs": [
-        //e.g.
-        /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "jql",
+            "title":"JQL"
+        },
+        {
+            "id": "startAt",
+            "title":"Start"
+        },
+        {
+            "id": "maxResults",
+            "title":"Max Results"
+        },
+        {
+            "id": "validateQuery",
+            "title":"Validate"
+        },
+        {
+            "id": "fields",
+            "title":"Fields"
+        },
+        {
+            "id": "expand",
+            "title":"Expand"
         }
-        */
     ],
     //Required. Outputs the module emits.
     "outputs": [
-      //e.g.
-      /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "total",
+            "title":"Total"
+        },
+        {
+            "id": "id",
+            "title":"Issue ID"
+        },
+        {
+            "id": "self",
+            "title":"Issue URL"
+        },
+        {
+            "id": "key",
+            "title":"Issue Key"
         }
-      */
     ],
     "title": "Jira Search Request" /* Required.A display name for the module */
 }

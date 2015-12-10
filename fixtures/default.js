@@ -63,7 +63,7 @@ module.exports = _.merge({
              */
             input: {
                 //Replace VAR1 with the name of an expected input, and add more inputs as needed.
-                VAR1: 'foo'
+                jql: 'text ~ "Ticket Name"'
             }
         }
     }
